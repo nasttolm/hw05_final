@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block title %}
+{% if is_edit %}
+Edit post
+{% else %}
+New post
+{% endif %}
+{% endblock %}
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 p-5">
+        <div class="card">
+          <div class="card-header">       
+            {% if is_edit %}
+              Edit post
+            {% else %}
+              New post
+            {% endif %}
+          </div>
+          <div class="card-body">        
+            {% block form %}
+              {% include 'includes/form.html' %}
+            {% endblock %} 
+            <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary">
+                {% if is_edit %}
+                  Save
+                {% else %}
+                  Add
+                {% endif %}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
