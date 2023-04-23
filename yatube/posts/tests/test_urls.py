@@ -36,7 +36,7 @@ class PostURLTests(TestCase):
                        f'/posts/{self.post.id}/']
         for url in urlpatterns:
             response = self.guest_client.get(url)
-            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.status_code, HTTPStatus.OK)
 
     def test_unexisting_page_exists_at_desired_location(self):
         """Страница unexisting_page не доступна любому пользователю."""
