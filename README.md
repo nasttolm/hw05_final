@@ -11,7 +11,21 @@ Users will be able to visit other people's pages, subscribe to authors and comme
 Python 3.7
 Django 2.2.19
 ### Running a project in dev mode
+- Clone the repository and go to it on the command line:
+```
+git clone git@github.com:nasttolm/api_final_yatube.git
+```
+cd yatube
+
 - Install and activate the virtual environment
+```
+for Linux or macOS:
+```
+python3 -m venv venv
+```
+source venv/bin/activate
+```
+for Windows:
 ```
 python3 -m venv env
 ```
@@ -20,6 +34,10 @@ source env/bin/activate
 - Install dependencies from requirements.txt file
 ```
 pip install -r requirements.txt
+```
+- Create a superuser:
+```
+python3 manage.py createsuperuser.
 ``` 
 - In the folder with the manage.py file, run the command:
 ```
