@@ -1,8 +1,8 @@
 # Yatube
 Yandex educational project. Python Developer course (backend).
 ### Description
-Blog with reading and writing to the database (Django ORM).
-The availability of registration, authorization and password change has been implemented. The main functionality has been developed: creating your own page, adding posts with pictures,
+A blog for reading and writing. It uses SQL-lite database and Django ORM for accessing it. The registration, authorization and password change has been implemented.
+The main functionality has been developed: creating your own page, adding posts with pictures,
 editing and deleting them. Added groups of posts, comments and subscriptions to other users. The ability to display posts of individual groups, authors subscribed to by the user, 
 and user posts in the feed has been implemented. Test coverage (Unittest) has been implemented.
 ### Social network for publishing personal diaries.
