@@ -18,13 +18,13 @@ git clone git@github.com:nasttolm/api_final_yatube.git
 cd yatube
 
 - Install and activate the virtual environment
-```
+
 for Linux or macOS:
 ```
 python3 -m venv venv
 ```
 source venv/bin/activate
-```
+
 for Windows:
 ```
 python3 -m venv env
