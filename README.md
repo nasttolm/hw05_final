@@ -22,16 +22,15 @@ cd yatube
 for Linux or macOS:
 ```
 python3 -m venv venv
-
+```
 source venv/bin/activate
 ```
-
 for Windows:
 ```
 python3 -m venv env
-
-source env/bin/activate
 ```
+source env/bin/activate
+
 - Install dependencies from requirements.txt file
 ```
 pip install -r requirements.txt
