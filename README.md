@@ -30,15 +30,15 @@ for Windows:
 python3 -m venv env
 ```
 source env/bin/activate
-```
+
 - Install dependencies from requirements.txt file
 ```
 pip install -r requirements.txt
-```
+
 - Create a superuser:
 ```
 python3 manage.py createsuperuser.
-``` 
+
 - In the folder with the manage.py file, run the command:
 ```
 python3 manage.py runserver
